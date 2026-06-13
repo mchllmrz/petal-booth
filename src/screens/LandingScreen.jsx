@@ -10,10 +10,10 @@ function LandingScreen(){
         <>
         <div className="flex flex-col items-center justify-center gap-8 p-6">
             <div className="text-center">
-                <h1 className="font-pixel text-2xl text-[#e0e8ff] mb-3">
+                <h1 className="font-pixel text-2xl text-[#1b1d25] mb-3">
                     <span className="text-4xl">🌸</span>Petal.booth
                 </h1>
-                <p className="font-pixel text-[10px] text-[#d4dbff] tracking-widest">✦ capture memories ✦</p>
+                <p className="font-pixel text-[10px] text-[#1b1d25] tracking-widest">✦ capture memories ✦</p>
             </div>
 
             <div className="border-2 border-[#4858a0] shadow-[4px_4px_0_#4858a0] ">

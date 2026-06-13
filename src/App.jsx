@@ -8,7 +8,7 @@ function App(){
     const screen = usePhotoStore((s) => s.screen);
 
     return(
-        <div className="w-screen h-screen bg-[#0e1020] overflow-hidden flex items-center justify-center ">
+        <div className="w-screen h-screen bg-[#bec9e3] overflow-hidden flex items-center justify-center ">
             {screen === 'landing' && <LandingScreen />}
             {screen === 'camera' && <CameraScreen />}
             {screen === 'editor' && <EditorScreen />}

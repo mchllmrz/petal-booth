@@ -91,7 +91,7 @@ function CameraScreen(){
 
                 {/* Vintage Camera Shape */}
                 <div className="relative">
-                    <div className="relative bg-[#626b92d5] border-4 border-[#4858a0] shadow-[6px_6px_0_#4858a0] rounded-lg px-6 pt-4 pb-6">
+                    <div className="relative bg-[#8c95c1d5] border-4 border-[#4858a0] shadow-[6px_6px_0_#4858a0] rounded-lg px-6 pt-4 pb-6">
                         
                         {/* Top Bar */}
                         <div className="flex items-center justify-between mb-3 px-1 ">
@@ -99,7 +99,7 @@ function CameraScreen(){
                                 <div className="w-2 h-2 rounded-full bg-[#e05858] border border-[#a03030] "/>
                                 <div className="w-2 h-2 rounded-full bg-[#e0c040] border border-[#a08020]" />
                             </div>
-                            <span className="font-pixel text-[6px] text-[#ffffff] ">CAM.EXE</span>
+                            <span className="font-pixel text-[9px] text-[#ffffff] ">CAM.EXE</span>
                             <div className="w-4 h-2 bg-[#777b94] border border-[#5060b0] rounded-sm" />
                         </div>
 
@@ -149,7 +149,7 @@ function CameraScreen(){
                                     border transition-all
                                     ${activeFilter === f.id
                                         ? 'bg-[#7b6fd4] text-white border-[#9b8ff4]'
-                                        : 'bg-[#1a1c2e] text-[#5060a0] border-[#2e3260] hover:border-[#7b6fd4]'
+                                        : 'bg-[#f6f6f8] text-[#5060a0] border-[#2e3260] hover:border-[#7b6fd4]'
                                     }`}
                     >
                     {f.label}
@@ -176,7 +176,7 @@ function CameraScreen(){
                 {/* Back / Cancel Button */}
                 <button
                     onClick={() => setScreen('landing')}
-                    className="font-pixel text-[8px] text-[#a3aeee] border border-[#2e3260] px-3 py-1 mt-2 hover:text-[#9098c8] hover:border-[#9098c8]"
+                    className="font-pixel text-[8px] text-[#ffffff] border border-[#2e3260] px-3 py-1 mt-2 hover:text-[#000000] hover:border-[#9098c8]"
                 >
                     ← CANCEL
                 </button>
