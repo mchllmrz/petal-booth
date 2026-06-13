@@ -10,14 +10,14 @@ function LandingScreen(){
         <>
         <div className="flex flex-col items-center justify-center gap-8 p-6">
             <div className="text-center">
-                <h1 className="font-pixel text-2xl text-[#1b1d25] mb-3">
+                <h1 className="font-pixel text-2xl text-[#e4eaff] mb-3">
                     <span className="text-4xl">🌸</span>Petal.booth
                 </h1>
-                <p className="font-pixel text-[10px] text-[#1b1d25] tracking-widest">✦ capture memories ✦</p>
+                <p className="font-pixel text-[10px] text-[#f4f6ff] tracking-widest">✦ capture memories ✦</p>
             </div>
 
             <div className="border-2 border-[#4858a0] shadow-[4px_4px_0_#4858a0] ">
-                <div className="bg-[#6b7cc4] px-3 py-2 flex items-center justify-between">
+                <div className="bg-[#0c36ef] px-3 py-2 flex items-center justify-between">
                     <span className="font-pixel text-[8px] text-white ">
                         ♥ NEW_SESSION.EXE
                     </span>
@@ -40,8 +40,8 @@ function LandingScreen(){
                             onClick={() => setPhotoCount(n)}
                             className={`w-12 h-12 font-pixel  border-2 shadow-[2px_2px_0] transition-all 
                             ${photoCount === n
-                            ? 'bg-[#7b6fd4] text-white border-[#4858a0] shadow-[#4858a0] ' :
-                            'bg-white text-[#4858a0] border-[#b0b8d8] shadow-[#b0b8d8] hover:border-[#7b6fd4] hover:shadow-[#7b6fd4] '
+                            ? 'bg-[#0c36ef] text-white border-[#4858a0] shadow-[#4858a0] ' :
+                            'bg-white text-[#4858a0] border-[#b0b8d8] shadow-[#b0b8d8] hover:border-[#7b6fd4] hover:shadow-[#0c36ef] '
                             }`}
                             >
                                 {n}
@@ -51,8 +51,8 @@ function LandingScreen(){
                     
                     <button
                     onClick={() => setScreen('camera')}
-                    className="font-pixel text-[9px] bg-[#7b6fd4] text-white border-2 border-[#4858a0]
-                    px-8 py-3 shadow-[3px_3px_0_#4858a0] hover:bg-[#9b8ff4]
+                    className="font-pixel text-[9px] bg-[#0c36ef] text-white border-2 border-[#4858a0]
+                    px-8 py-3 shadow-[3px_3px_0_#4858a0] hover:bg-[#3b5fff]
                     active:translate-x-[2px] active:translate-y-[2px] active:shadow-none "
                     >
                         ▶ START

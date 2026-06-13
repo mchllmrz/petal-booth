@@ -91,7 +91,7 @@ function CameraScreen(){
 
                 {/* Vintage Camera Shape */}
                 <div className="relative">
-                    <div className="relative bg-[#8c95c1d5] border-4 border-[#4858a0] shadow-[6px_6px_0_#4858a0] rounded-lg px-6 pt-4 pb-6">
+                    <div className="relative bg-[#b3d5f0ad] border-4 border-[#4858a0] shadow-[6px_6px_0_#4858a0] rounded-lg px-6 pt-4 pb-6">
                         
                         {/* Top Bar */}
                         <div className="flex items-center justify-between mb-3 px-1 ">
@@ -148,7 +148,7 @@ function CameraScreen(){
                         className={`flex-shrink-0 font-pixel text-[8px] px-2 py-1
                                     border transition-all
                                     ${activeFilter === f.id
-                                        ? 'bg-[#7b6fd4] text-white border-[#9b8ff4]'
+                                        ? 'bg-[#0c36ef] text-white border-[#9b8ff4]'
                                         : 'bg-[#f6f6f8] text-[#5060a0] border-[#2e3260] hover:border-[#7b6fd4]'
                                     }`}
                     >

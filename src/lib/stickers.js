@@ -1,10 +1,32 @@
 export const STICKERS = [
-  // Y2K vibes
-  '💿', '🦋', '👽', '🌈',
-  // Stars & sparkles
-  '💖', '✨', '⭐',
-  // Cute
-  '🍒',
-  // Text art
-  'BFF', 'XOXO', 'Y2K', '<3', '100%', 'LUV'
+  { type: 'image', src: '/stickers/camera2.png' },
+  { type: 'image', src: '/stickers/rabbit.png' },
+  { type: 'image', src: '/stickers/cd3.png' },
+  { type: 'image', src: '/stickers/star.png' },
+  { type: 'image', src: '/stickers/turntable.png' },
+  { type: 'image', src: '/stickers/pointer.png' },
+  { type: 'image', src: '/stickers/threehearts.png' },
+  { type: 'image', src: '/stickers/cursor.png' },
+  { type: 'image', src: '/stickers/flowers.png' },
+  { type: 'image', src: '/stickers/flower.png' },
+  { type: 'image', src: '/stickers/camera.png' },
+  { type: 'image', src: '/stickers/butterfly.png' },
+  { type: 'image', src: '/stickers/cd.png' },
+  { type: 'image', src: '/stickers/bear.png' },
+  { type: 'image', src: '/stickers/silverheart.png' },
+  { type: 'image', src: '/stickers/dumpling.png' },
+  { type: 'image', src: '/stickers/headphones.png' },
+  { type: 'image', src: '/stickers/frog.png' },
+  { type: 'image', src: '/stickers/bubble.png' },
+  { type: 'image', src: '/stickers/cd2.png' },
+  { type: 'image', src: '/stickers/pinkflower.png' },
+  { type: 'image', src: '/stickers/folder.png' },
+  { type: 'image', src: '/stickers/warning.png' },
+  { type: 'image', src: '/stickers/crying.png' },
+  { type: 'image', src: '/stickers/star2.png' },
+  { type: 'image', src: '/stickers/start.png' },
+  { type: 'image', src: '/stickers/phone2.png' },
+  { type: 'image', src: '/stickers/blackstar.png' },
+  { type: 'image', src: '/stickers/phone.png' },
+  { type: 'image', src: '/stickers/pinkplanet.png' }
 ];

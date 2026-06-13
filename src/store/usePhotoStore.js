@@ -13,26 +13,22 @@ const usePhotoStore = create((set, get) =>({
     })),
     clearPhotos: () => set({photos: []}),
 
-    activeTheme: 'holo',
+    activeTheme: 'pink',
     setActiveTheme: (t) => set({activeTheme: t}),
+
+    frameShape: 'rectangle',
+    setFrameShape: (shape) => set({frameShape: shape}),
 
     activeFilter: 'none',
     setActiveFilter: (f) => set({activeFilter: f}),
 
     stickers: [],
-    addSticker: (emoji) => set((state) =>{
-        const isText = /[A-Za-z0-9<>]/.test(emoji)
-
-        return{
-            stickers: [...state.stickers, {
-                id: crypto.randomUUID(),
-                emoji,
-                x: 60,
-                y: 60,
-                size: isText ? 24 : 40,
-            }]
-        }
-    }),
+    addSticker: (newSticker) => set((state) => ({
+        stickers: [...state.stickers, {
+            id: newSticker.id || crypto.randomUUID(), 
+            ...newSticker 
+        }]
+    })),
 
     updateSticker: (id, changes) => set((state) =>({
         stickers: state.stickers.map(s =>
@@ -46,7 +42,6 @@ const usePhotoStore = create((set, get) =>({
 
     clearStickers: () => set({stickers: []}),
 
-     
     selectedStickerId: null,
     setSelectedSticker: (id) => set({ selectedStickerId: id }),
    
@@ -55,7 +50,7 @@ const usePhotoStore = create((set, get) =>({
         photos: [],
         stickers: [],
         selectedStickerId: null,
-        activeTheme: 'holo',
+        activeTheme: 'pink',
         activeFilter: 'none',
     }),
 
